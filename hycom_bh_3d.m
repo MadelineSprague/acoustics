@@ -336,6 +336,7 @@ function [outputs] = hycom_bh_3d(varargin)
             disp('Receiver parameters:')
             disp('You can choose to use a grid of receivers spanning the whole')
                 disp('sound speed field, or set receiver locations manually.')
+                disp('If you''re not sure, use the grid option.')
 
             option2     = input('Enter ''grid'' or ''manual'':                       ', 's'); 
 
