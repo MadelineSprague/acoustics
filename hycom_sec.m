@@ -278,7 +278,7 @@ end
     % calculate bathymetry 
     
         cum_dist = [0; cumsum(m_lldist(lon, lat))]; 
-        [bathy, xfill, yfill] = gebco_bathy(lat, lon, cum_dist); 
+        [bathy, xfill, yfill] = gebco_bathy(lon, lat, cum_dist); 
             
     % store variables in the output struct 
     
